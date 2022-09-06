@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+h5 {
+  margin-bottom: 1rem;
+}
+.card {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  border: 0.5px solid lightgrey;
+  overflow-y: scroll;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px lightgrey;
+  background: white;
+  min-height: 250px;
+}
+.slider-container{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.loading-container {
+  height: 50vh;
+  width: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-weight: bold;
+}
